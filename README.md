@@ -1,12 +1,12 @@
 # DeepResearchAgent 🕵️‍♂️
-DeepResearchAgent is research agent designed to autonomously conduct in-depth research on various topics. It leverages a sophisticated planning system, a dedicated lead research agent, and a suite of tools to gather, process, and synthesize information effectively.Is is based on openai agents sdk.
+DeepResearchAgent is research agent designed to autonomously conduct in-depth research on various topics. It leverages a sophisticated planning system, a dedicated lead research agent, and a suite of tools to gather, process, and synthesize information effectively.It is based on openai agents sdk.
 
 # 🚀 Features
-Modular Architecture: Easily extendable with new tools and research strategies.
+Modular Architecture:  Easily extendable with new tools and research strategies.
 
-Intelligent Planning: Utilizes planning.py for dynamic and adaptive research plan generation.
+Intelligent Planning:  Utilizes planning.py for dynamic and adaptive research plan generation.
 
-Lead Research Agent: lead_research_agent.py orchestrates the overall research process, delegating tasks and consolidating findings.
+Lead Research Agent:  lead_research_agent.py orchestrates the overall research process, delegating tasks and consolidating findings.
 
 Specialized Agents: Includes requirement_gathering.py, synthesis_agent.py, and citation_agent.py for focused tasks.
 
@@ -46,13 +46,13 @@ lead_research_agent.py: Acts as the central coordinator, overseeing the executio
 
 research_agents.py: A module containing Tavily Search Client and web_search_agent that can be instantiated and managed by the lead_research_agent.
 
-requirement_gathering.py:  Handles the initial phase of understanding and clarifying the research query, defining the scope, and identifying key information needs.
+requirement_gathering.py:  Handles the initial phase of understanding, thus clarifying the research query, defining the scope, and identifying key information needs.
 
 synthesis_agent.py: Responsible for combining findings from various sources, identifying patterns, extracting key insights, and generating a coherent research report.
 
 citation_agent.py: Manages the tracking and formatting of sources, ensuring proper attribution and referencing for all gathered information.
 
-tools.py: A collection of different agents tjhat are used as tools for  web search, synthesis and citatation.
+tools.py: A collection of different agents that are used as tools for  web search, synthesis and citation.
 
 config.py: Stores configuration settings and other customizable parameters for the llms.
 
@@ -70,6 +70,7 @@ git clone https://github.com/billy-pk/DeepResearchAgent.git
 cd DeepResearchAgent
 
 Install dependencies:
+
 Create a virtual environment through uv and activate it. Run un sync to install the dependencies.
 
 # 🚀 How to Use the Research Agent
