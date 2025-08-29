@@ -85,4 +85,6 @@ Before running the agent, make sure to update the .env file with your own API ke
 
 # Demo Video
 
-[Download the DeepResearchAgent Demo Video](assets/deep_research_agent_demo.mp4)
+Watch the deep research agent demo video on google drive:
+
+https://drive.google.com/file/d/1eqqt5PzH2IJBqbgkc129ei2wlL7nMKYC/view?usp=sharing
