@@ -82,3 +82,7 @@ The agent will then ask for certain requirements regarding your research.
 The agent will then begin its research process, utilizing its internal planning, lead agent, and specialized agents to gather and synthesize information related to your query.
 
 Before running the agent, make sure to update the .env file with your own API keys.
+
+# Demo Video
+
+[Download the DeepResearchAgent Demo Video](assets/deep_research_agent_demo.mp4)
