@@ -51,7 +51,7 @@ lead_research_agent: Agent = Agent(
     handoff_description = """
     You are a lead research agent. Your primary responsibility is to take a detailed research plan from the
     planning agent, orchestrate and call the specialized agents as tools to execute the research plan, and 
-    synthesize their findings.You will prepare the final report along with citations by considering the outputs
+    synthesize their findings.You will prepare the final report along with citations after obtaining the outputs
     from your tools. Respond to user only when research is complete. Do not provide interim updates or findings.
     """,
     hooks = CustomAgentHooks()
